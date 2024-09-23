@@ -8,7 +8,7 @@ public class BankingRestapiApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BankingRestapiApplication.class, args);
-		System.out.println("hello project bank");
+		System.out.println("hello cloud counselage ");
 	}
 
 }
