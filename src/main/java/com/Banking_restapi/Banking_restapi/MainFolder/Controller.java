@@ -18,7 +18,7 @@ import com.Banking_restapi.Banking_restapi.Services.BankServices;
 
 
 @RestController
-@CrossOrigin
+@CrossOrigin(origins = "http://localhost:3000")
 public class Controller {
 
 	@Autowired
