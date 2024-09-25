@@ -8,13 +8,9 @@ import com.Banking_restapi.Banking_restapi.MainFolder.Transaction;
 import com.Banking_restapi.Banking_restapi.MainFolder.Transfermoney;
 
 public interface BankServices {
-	
 	public List<Customer_Details> getCustomer_Details();
 	
 	public Customer_Details getSingle(int BankId);
-	
-	
-	
 	public String  addCustomer(Customer_Details  customer);
 
 	public Customer_Details updateCustomer(Customer_Details customer);
